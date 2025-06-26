@@ -10,16 +10,23 @@ h1 {
   color: white;
   margin: 0;
 }
-
-
+h2 {
+    font-size: 70px;
+    color: red;
+}
+h3 {
+    font-size: 80px;
+    color: black;
+}
 body {
+    
     font-size: larger;
     margin: 0;
 }
 
 .texte {
     font-size: 40px;
-    color: black;
+    color: white;
 }
 
 .burger{
@@ -36,13 +43,6 @@ body {
 .map-section h2 {
   font-size: 100px;
   margin: 20px 0;
-}
-
-.map {
-  max-width: 50%;
-  height: auto
-  border: 2px solid white;
-  margin-top: 10px;
 }
 
 .socials {
@@ -62,14 +62,19 @@ body {
 
 .gauche {
     font-size: 40px;
+    color: black;
 }
 .droite {
     font-size: 40px;
+    color: black;
 }
-.baspage {
+.info-section {
   display: flex;
   justify-content: space-between;
   padding: 3%;
   background-color: beige;
   color: black;
 }
+
+
+
